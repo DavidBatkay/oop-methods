@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 namespace OopMethods
 {
     internal class ConsoleHelper
-    {
+    {   
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="message">The message to print</param>
         public static void Print(string message)
         {
             Print(string.Empty, message, 1);
@@ -28,7 +32,7 @@ namespace OopMethods
                 Console.WriteLine($"{label}:");
             for(int i=0;i<count;i++)
             {
-                Console.Write(message);
+                Console.WriteLine(message);
             }
         }
     }

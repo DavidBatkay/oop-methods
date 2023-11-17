@@ -9,6 +9,8 @@
             ConsoleHelper.Print("label","test");
             
             ConsoleHelper.Print("test",2);
+
+            Console.WriteLine(MathHelper.Factorial(5));
         }
     }
 }
