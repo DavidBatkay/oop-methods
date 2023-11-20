@@ -8,6 +8,13 @@ namespace OopMethods
 {
     internal static class ArrayHelper
     {
+
+        public static void IterateAndPrint(int[] array)
+        {
+            IterateAndPrint(array, 0);
+        }
+
+
         public static void IterateAndPrint(int[] array, int index)
         {
             if (array is null || array.Length == 0)
